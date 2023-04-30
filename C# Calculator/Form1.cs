@@ -21,8 +21,7 @@ namespace C__Calculator
                 var b = this.Controls[button];
                 b.Click += new EventHandler(updateEquation);
 
-            }
-
+            } 
         }
         private void updateEquation(object sender, EventArgs e)
         {  
